@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/bot_home"
+        android:title="@string/menu_home"
+        android:icon="@drawable/home"/>
+
+    <item android:id="@+id/bot_bag"
+        android:title="Bag"
+        android:icon="@drawable/bag"/>
+
+    <item android:id="@+id/place_holder"
+        android:title=""
+        android:enabled="false"/>
+
+    <item android:id="@+id/bot_news"
+        android:title="News"
+        android:icon="@drawable/newspaper"/>
+
+    <item android:id="@+id/bot_profile"
+        android:title="Profile"
+        android:icon="@drawable/user"/>
+</menu>

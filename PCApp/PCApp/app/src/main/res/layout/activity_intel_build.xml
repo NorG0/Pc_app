@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".IntelBuild"
+    android:background="#FFFFFF"
+    android:layout_margin="10dp"
+    android:id="@+id/intelbuildfragment"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:src="@drawable/cpu1" />
+
+            <Button
+                android:id="@+id/Selectcpu"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="300dp"
+                android:layout_marginLeft="300dp"
+                android:backgroundTint="#0071C5"
+                android:text="+"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/descipcpu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="100sp"
+                android:layout_marginLeft="100sp"
+                android:layout_marginTop="40dp"
+                android:text="Vui lòng chọn CPU"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/cpu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100sp"
+                android:layout_marginTop="10sp"
+                android:text="CPU"
+                android:textSize="15sp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/Main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp">
+
+            <Button
+                android:id="@+id/selectmain"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="300dp"
+                android:layout_marginLeft="300dp"
+                android:backgroundTint="#0071C5"
+                android:text="+"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/descipmain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="100sp"
+                android:layout_marginLeft="100sp"
+                android:layout_marginTop="40dp"
+                android:text="Vui lòng chọn Main"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/Mainboard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100sp"
+                android:layout_marginTop="10sp"
+                android:text="Mainboard"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:src="@drawable/motherboard" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/vga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp">
+
+            <Button
+                android:id="@+id/selectvga"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="300dp"
+                android:layout_marginLeft="300dp"
+                android:backgroundTint="#0071C5"
+                android:text="+"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/descipgpu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="100sp"
+                android:layout_marginLeft="100sp"
+                android:layout_marginTop="40dp"
+                android:text="Vui lòng chọn GPU"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/videocard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100sp"
+                android:layout_marginTop="10sp"
+                android:text="GPU"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:src="@drawable/videocard" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/ramlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp">
+
+            <Button
+                android:id="@+id/selectram"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="300dp"
+                android:layout_marginLeft="300dp"
+                android:backgroundTint="#0071C5"
+                android:text="+"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/descipRam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="100sp"
+                android:layout_marginLeft="100sp"
+                android:layout_marginTop="40dp"
+                android:text="Vui lòng chọn RAM"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/ram"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100sp"
+                android:layout_marginTop="10sp"
+                android:text="RAM"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:src="@drawable/ram" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/supplypower"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp">
+
+            <Button
+                android:id="@+id/selectpower"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="300dp"
+                android:layout_marginLeft="300dp"
+                android:backgroundTint="#0071C5"
+                android:text="+"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/descipower"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="100sp"
+                android:layout_marginLeft="100sp"
+                android:layout_marginTop="40dp"
+                android:text="Vui lòng chọn Nguồn"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/nguonpc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100sp"
+                android:layout_marginTop="10sp"
+                android:text="PSU (W)"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:src="@drawable/powersupply" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/hardrive"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp">
+
+            <Button
+                android:id="@+id/select_hardive"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="300dp"
+                android:layout_marginLeft="300dp"
+                android:backgroundTint="#0071C5"
+                android:text="+"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/descipocung"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="100sp"
+                android:layout_marginLeft="100sp"
+                android:layout_marginTop="40dp"
+                android:text="Vui lòng chọn Ổ cứng"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/o_cung"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100sp"
+                android:layout_marginTop="10sp"
+                android:text="Ổ cứng"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:src="@drawable/ssddrive" />
+        </FrameLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/buttoncheck"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:backgroundTint="#27B817"
+                android:text="CHECK"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/checkcpuvamain"
+                android:hint="CPU va Main"
+                android:text=""
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="8dp"
+                android:textSize="16dp"
+                android:textColor="#2BD60C"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/buttoncheck" />
+
+            <Button
+                android:id="@+id/buttonmua"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="204dp"
+                android:layout_marginLeft="204dp"
+                android:layout_marginTop="28dp"
+                android:text="Mua"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/buttoncheck" />
+
+            <TextView
+                android:id="@+id/checkram"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="9dp"
+                android:hint="RAM"
+                android:text=""
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/checkcpuvamain" />
+
+            <TextView
+                android:id="@+id/checknguon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="6dp"
+                android:hint="Nguồn"
+                android:text=""
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/checkram" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+
